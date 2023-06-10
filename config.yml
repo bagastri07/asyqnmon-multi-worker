@@ -1,0 +1,14 @@
+port: 7070
+redis:
+  user_worker:
+    host: "localhost:6379"
+    password: "mantis"
+    db: 0
+  company_worker:
+    host: "localhost:6379"
+    password: "mantis"
+    db: 0
+  notification_worker:
+    host: "localhost:6379"
+    password: "mantis"
+    db: 0
